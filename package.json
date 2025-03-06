@@ -1,5 +1,6 @@
 {
   "name": "my",
+   "homepage": "https://TH1985-Hub.github.io/my-movies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch src/data/question.json --port 3001"
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "json-server": "^1.0.0-beta.3"
   }
 }
