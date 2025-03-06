@@ -79,7 +79,7 @@ const Header = ({ onSearchResults }) => {
     setQuery(e.target.value);
     if (e.target.value.length > 2) { // Fetch only if input is longer than 2 chars
       setLoading(true);
-      const response = await fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=8df2f100`);
+      const response = await fetch(`https://www.omdbapi.com/?s=${e.target.value}&apikey=8df2f100`);
       const data = await response.json();
       setLoading(false);
       
