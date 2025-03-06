@@ -1,0 +1,70 @@
+Glassmorphism Table Styles
+.movie-table-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.movie-table th {
+    background: rgba(45, 64, 89, 0.7);
+    padding: 1.2rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.movie-table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.movie-table tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.movie-poster {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.movie-poster:hover {
+    transform: scale(1.1);
+}
+
+.table-action-btn {
+    background: linear-gradient(45deg, #2d4059, #ea5455);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.table-action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(234, 84, 85, 0.3);
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .movie-table {
+        display: block;
+        overflow-x: auto;
+    }
+}

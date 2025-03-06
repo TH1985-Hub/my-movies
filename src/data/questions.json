@@ -1,0 +1,334 @@
+{
+    "questions": [
+      {
+        "question": "Who directed the movie 'Inception'?",
+        "options": [
+          "Steven Spielberg",
+          "Christopher Nolan",
+          "Quentin Tarantino",
+          "Martin Scorsese"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which movie won the Academy Award for Best Picture in 2020?",
+        "options": [
+          "Parasite",
+          "1917",
+          "Joker",
+          "The Irishman"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Who played the role of Tony Stark in the Marvel Cinematic Universe?",
+        "options": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the highest-grossing movie of all time?",
+        "options": [
+          "Avatar",
+          "Avengers: Endgame",
+          "Titanic",
+          "Star Wars: The Force Awakens"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Jack Dawson'?",
+        "options": [
+          "The Great Gatsby",
+          "Titanic",
+          "Pearl Harbor",
+          "The Revenant"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who composed the music for the 'Pirates of the Caribbean' series?",
+        "options": [
+          "Hans Zimmer",
+          "John Williams",
+          "James Horner",
+          "Alan Silvestri"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie is based on the life of Stephen Hawking?",
+        "options": [
+          "A Beautiful Mind",
+          "The Theory of Everything",
+          "The Imitation Game",
+          "Interstellar"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the fictional African country in 'Black Panther'?",
+        "options": [
+          "Wakanda",
+          "Zamunda",
+          "Genosha",
+          "Latveria"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which actor played the Joker in 'The Dark Knight'?",
+        "options": [
+          "Heath Ledger",
+          "Joaquin Phoenix",
+          "Jack Nicholson",
+          "Jared Leto"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the hobbit played by Elijah Wood in 'The Lord of the Rings'?",
+        "options": [
+          "Frodo Baggins",
+          "Samwise Gamgee",
+          "Bilbo Baggins",
+          "Merry Brandybuck"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+        "options": [
+          "Gone with the Wind",
+          "Casablanca",
+          "The Godfather",
+          "Citizen Kane"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who directed the movie 'The Shawshank Redemption'?",
+        "options": [
+          "Frank Darabont",
+          "Steven Spielberg",
+          "Martin Scorsese",
+          "Quentin Tarantino"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Hannibal Lecter'?",
+        "options": [
+          "Se7en",
+          "The Silence of the Lambs",
+          "Zodiac",
+          "American Psycho"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the spaceship in 'Alien'?",
+        "options": [
+          "Nostromo",
+          "Prometheus",
+          "Sulaco",
+          "Event Horizon"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the song 'My Heart Will Go On'?",
+        "options": [
+          "Titanic",
+          "The Bodyguard",
+          "Dirty Dancing",
+          "Ghost"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Who played the role of Neo in 'The Matrix'?",
+        "options": [
+          "Keanu Reeves",
+          "Brad Pitt",
+          "Tom Cruise",
+          "Leonardo DiCaprio"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie is about a young lion named Simba?",
+        "options": [
+          "The Jungle Book",
+          "The Lion King",
+          "Madagascar",
+          "Zootopia"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who directed the movie 'Pulp Fiction'?",
+        "options": [
+          "Quentin Tarantino",
+          "Martin Scorsese",
+          "Steven Spielberg",
+          "David Fincher"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Forrest Gump'?",
+        "options": [
+          "The Green Mile",
+          "Forrest Gump",
+          "Cast Away",
+          "Saving Private Ryan"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the fictional theme park in 'Jurassic Park'?",
+        "options": [
+          "Isla Nublar",
+          "Isla Sorna",
+          "Skull Island",
+          "Raptor Island"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Who played the role of Wolverine in the 'X-Men' series?",
+        "options": [
+          "Hugh Jackman",
+          "Ryan Reynolds",
+          "Chris Hemsworth",
+          "Robert Downey Jr."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Ellen Ripley'?",
+        "options": [
+          "Terminator",
+          "Aliens",
+          "Predator",
+          "Blade Runner"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the villain in 'The Dark Knight'?",
+        "options": [
+          "The Joker",
+          "Bane",
+          "Two-Face",
+          "The Riddler"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Don Vito Corleone'?",
+        "options": [
+          "Goodfellas",
+          "The Godfather",
+          "Scarface",
+          "Casino"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who directed the movie 'Fight Club'?",
+        "options": [
+          "David Fincher",
+          "Quentin Tarantino",
+          "Christopher Nolan",
+          "Martin Scorsese"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Jack Sparrow'?",
+        "options": [
+          "Pirates of the Caribbean",
+          "Master and Commander",
+          "Moby Dick",
+          "The Goonies"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the robot in 'Star Wars'?",
+        "options": [
+          "R2-D2",
+          "C-3PO",
+          "BB-8",
+          "Wall-E"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'Katniss Everdeen'?",
+        "options": [
+          "Divergent",
+          "The Hunger Games",
+          "Maze Runner",
+          "The Giver"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who played the role of Iron Man in the Marvel Cinematic Universe?",
+        "options": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which movie features the character 'John Wick'?",
+        "options": [
+          "John Wick",
+          "Taken",
+          "The Equalizer",
+          "The Bourne Identity"
+        ],
+        "correctOption": 0,
+        "points": 10
+      }
+    ]
+  }

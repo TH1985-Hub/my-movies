@@ -1,0 +1,44 @@
+/* src/components/MovieCards.css */
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .movie-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .movie-info {
+    padding: 1.5rem;
+    color: white;
+  }
+  
+  .favorite-btn {
+    background: rgba(234, 84, 85, 0.3);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .favorite-btn:hover {
+    background: rgba(234, 84, 85, 0.5);
+  }

@@ -1,0 +1,47 @@
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .option-button {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #EC8305;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #EC8305;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option-button:hover:not(:disabled) {
+    background-color: #EC8305;
+    color: white;
+  }
+  
+  .option-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .option-button.correct {
+    background-color: #4CAF50; /* Green */
+    border-color: #4CAF50;
+    color: white;
+  }
+  
+  .option-button.wrong {
+    background-color: #FF5252; /* Red */
+    border-color: #FF5252;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .options-container {
+      grid-template-columns: 1fr;
+    }
+  }

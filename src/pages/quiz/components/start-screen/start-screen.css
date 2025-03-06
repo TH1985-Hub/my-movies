@@ -1,0 +1,102 @@
+/* 1. Centering the Quiz Page */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f4f8;
+    padding: 20px;
+  }
+  
+  /* 2. Beautiful Header */
+  .quiz-header {
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quiz-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* 3. Start Screen */
+  .start-screen {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .start-screen h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* 4. Start Button */
+  /* button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */
+
+  /* Start Quiz Button */
+.start-btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .start-btn:hover {
+    background: linear-gradient(to right, #0056b3, #4a0da9);
+    transform: scale(1.05);
+  }
+  
+  .start-btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  /* 5. Pagination at the Bottom */
+  .pagination-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  

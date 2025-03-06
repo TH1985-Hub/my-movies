@@ -1,0 +1,39 @@
+.progress-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .progress-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #EC8305; /* Orange */
+    margin-bottom: 0.5rem;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3; /* Light grey */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #EC8305; /* Orange */
+    transition: width 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .progress-text {
+      font-size: 1rem;
+    }
+  
+    .progress-bar {
+      height: 8px;
+    }
+  }

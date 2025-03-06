@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,83 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+/* src/App.css */
+:root {
+  --primary: #2d4059;
+  --secondary: #ea5455;
+  --accent: #ffd700;
+}
+
+/* body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.7), url('https://images.unsplash.com/photo-1535016120720-40c646be5580'));
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+} */
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)),
+    url('https://images.unsplash.com/photo-1535016120720-40c646be5580?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.tab-btn {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  box-shadow: 0 4px 15px rgba(234, 84, 85, 0.3);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 20px;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
   }
 }
